@@ -70,4 +70,12 @@ class Pelicula {
       return 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/$posterPath';
     }
   }
+
+  getBackgroundImg() {
+    if (backdropPath == null) {
+      return 'https://mymdb.comyn.pw/img/posters/noposter.jpg';
+    } else {
+      return 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/$backdropPath';
+    }
+  }
 }
