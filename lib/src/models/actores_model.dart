@@ -47,7 +47,7 @@ class Actor {
     if (profilePath == null) {
       return 'https://www.alzforum.org/sites/default/files/member-default.jpg';
     } else {
-      return 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/$profilePath';
+      return 'https://image.tmdb.org/t/p/w138_and_h175_face/$profilePath';
     }
   }
 }
